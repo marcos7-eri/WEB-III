@@ -1,0 +1,207 @@
+[
+    {
+        "NombreTarea": "Preparar presentación del proyecto",
+        "FechaVencimiento": "02/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Comprar útiles escolares",
+        "FechaVencimiento": "01/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Visitar a los abuelos",
+        "FechaVencimiento": "03/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Terminar de leer un libro",
+        "FechaVencimiento": "05/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Enviar informe de ventas",
+        "FechaVencimiento": "31/08/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Hacer limpieza general de la casa",
+        "FechaVencimiento": "06/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Pagar el internet",
+        "FechaVencimiento": "30/08/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Actualizar currículum",
+        "FechaVencimiento": "07/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Planear salida con amigos",
+        "FechaVencimiento": "04/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Revisar tareas universitarias",
+        "FechaVencimiento": "31/08/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Renovar documentos de identidad",
+        "FechaVencimiento": "10/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Sacar turno médico",
+        "FechaVencimiento": "08/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Organizar armario de ropa",
+        "FechaVencimiento": "05/09/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Estudiar para examen de matemáticas",
+        "FechaVencimiento": "09/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Asistir a la reunión de trabajo",
+        "FechaVencimiento": "02/09/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Reparar la bicicleta",
+        "FechaVencimiento": "12/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Descargar e instalar actualizaciones del PC",
+        "FechaVencimiento": "01/09/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Planificar viaje de vacaciones",
+        "FechaVencimiento": "15/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Ir al gimnasio",
+        "FechaVencimiento": "30/08/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Ver documental pendiente",
+        "FechaVencimiento": "11/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Enviar correo al jefe",
+        "FechaVencimiento": "01/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Practicar inglés 30 minutos",
+        "FechaVencimiento": "04/09/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Ordenar papeles de impuestos",
+        "FechaVencimiento": "07/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Comprar frutas y verduras",
+        "FechaVencimiento": "31/08/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Asistir a la clase de yoga",
+        "FechaVencimiento": "06/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Preparar reporte semanal",
+        "FechaVencimiento": "02/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Regar las plantas del balcón",
+        "FechaVencimiento": "30/08/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Hacer lista de compras",
+        "FechaVencimiento": "31/08/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Planificar presentación escolar",
+        "FechaVencimiento": "09/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Comprar regalo de cumpleaños",
+        "FechaVencimiento": "05/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Hacer un dibujo digital",
+        "FechaVencimiento": "10/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Revisar correos electrónicos",
+        "FechaVencimiento": "30/08/2025",
+        "Estado": "Finalizado"
+    },
+    {
+        "NombreTarea": "Completar formulario en línea",
+        "FechaVencimiento": "01/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Cocinar una receta nueva",
+        "FechaVencimiento": "08/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Revisar facturas pendientes",
+        "FechaVencimiento": "03/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Escuchar un podcast educativo",
+        "FechaVencimiento": "06/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Jugar partido de fútbol",
+        "FechaVencimiento": "07/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Ir al cine con amigos",
+        "FechaVencimiento": "05/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Revisar seguridad de la red WiFi",
+        "FechaVencimiento": "12/09/2025",
+        "Estado": "Pendiente"
+    },
+    {
+        "NombreTarea": "Configurar copia de seguridad en la nube",
+        "FechaVencimiento": "11/09/2025",
+        "Estado": "En curso"
+    },
+    {
+        "NombreTarea": "Planificar fin de semana en familia",
+        "FechaVencimiento": "13/09/2025",
+        "Estado": "Pendiente"
+    }
+]

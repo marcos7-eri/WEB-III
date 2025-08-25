@@ -1,0 +1,67 @@
+﻿@page "{id:int}"
+@model web1.Pages.EditarModel
+@{
+    Layout = "_Layoutcopia";
+    ViewData["Title"] = "Editar tarea";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header text-white" style="background:#A50044;">
+            <h5 class="mb-0"><i class="bi bi-pencil-square me-2"></i> Editar tarea</h5>
+        </div>
+        <div class="card-body">
+
+            @if (!string.IsNullOrEmpty(Model.MensajeBloqueo))
+            {
+                <div class="alert alert-warning">@Model.MensajeBloqueo</div>
+                <a asp-page="./Copia" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left-circle me-1"></i> Volver
+                </a>
+            }
+            else
+            {
+                <form method="post" class="row g-3">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="col-12">
+                        <label asp-for="Input.NombreTarea" class="form-label fw-bold">Nombre de la tarea</label>
+                        <input asp-for="Input.NombreTarea" class="form-control border-primary" placeholder="Ej: Actualizar sistema" />
+                        <span asp-validation-for="Input.NombreTarea" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label asp-for="Input.FechaVencimiento" class="form-label fw-bold">Fecha de vencimiento</label>
+                        <input asp-for="Input.FechaVencimiento" type="date" class="form-control border-primary" />
+                        <span asp-validation-for="Input.FechaVencimiento" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label asp-for="Input.Estado" class="form-label fw-bold">Estado</label>
+                        <select asp-for="Input.Estado" class="form-select border-primary">
+                            <option value="Pendiente">Pendiente</option>
+                            <option value="En curso">En curso</option>
+                            <option value="Finalizado">Finalizado</option>
+                        </select>
+                        <span asp-validation-for="Input.Estado" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 d-flex gap-2 mt-2">
+                        <button type="submit" class="btn text-white" style="background:#004D98;">
+                            <i class="bi bi-save me-1"></i> Guardar cambios
+                        </button>
+                        <a asp-page="./Copia" class="btn btn-outline-secondary">
+                            <i class="bi bi-x-circle me-1"></i> Cancelar
+                        </a>
+                    </div>
+                </form>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

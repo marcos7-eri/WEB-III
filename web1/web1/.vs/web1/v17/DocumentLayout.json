@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\4to Semestre UNI\\web1\\web1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\shared\\_layoutcopia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\shared\\_layoutcopia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\wwwroot\\data\\tareas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:wwwroot\\data\\tareas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\crear.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\crear.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\shared\\_layoutcopia.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\shared\\_layoutcopia.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|d:\\4to semestre uni\\web1\\web1\\pages\\editar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F350CC42-1017-46DB-BFEF-496CBD660F9D}|web1.csproj|solutionrelative:pages\\editar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-25T02:59:42.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Editar.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Editar.cshtml",
+              "RelativeToolTip": "Pages\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T19:34:03.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T02:34:09.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T00:40:29.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Crear.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Crear.cshtml",
+              "RelativeToolTip": "Pages\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T00:02:51.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T02:44:43.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tareas.json",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\wwwroot\\data\\tareas.json",
+              "RelativeDocumentMoniker": "wwwroot\\data\\tareas.json",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\wwwroot\\data\\tareas.json",
+              "RelativeToolTip": "wwwroot\\data\\tareas.json",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T02:20:22.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layoutcopia.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layoutcopia.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layoutcopia.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layoutcopia.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layoutcopia.cshtml",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAnwNEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T02:33:48.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Crear.cshtml.cs",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Crear.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Crear.cshtml.cs",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Crear.cshtml.cs",
+              "RelativeToolTip": "Pages\\Crear.cshtml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T00:03:19.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml.cs",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T03:12:31.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T00:09:24.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layoutcopia.cshtml.css",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layoutcopia.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layoutcopia.cshtml.css",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_Layoutcopia.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layoutcopia.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T02:40:00.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T02:32:16.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T03:12:21.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T02:57:57.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T02:57:58.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Editar.cshtml.cs",
+              "DocumentMoniker": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Editar.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Editar.cshtml.cs",
+              "ToolTip": "D:\\4to Semestre UNI\\web1\\web1\\Pages\\Editar.cshtml.cs",
+              "RelativeToolTip": "Pages\\Editar.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T19:34:26.522Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

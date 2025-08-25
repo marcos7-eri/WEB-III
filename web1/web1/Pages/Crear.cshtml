@@ -1,0 +1,50 @@
+﻿@page
+@model web1.Pages.CrearModel
+@{
+    Layout = "_Layoutcopia";
+    ViewData["Title"] = "Nueva tarea";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header text-center text-white" style="background: linear-gradient(90deg, #004D98, #A50044);">
+            <h3 class="mb-0">Nueva tarea</h3>
+        </div>
+        <div class="card-body p-4">
+            <form method="post" class="row g-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="col-12">
+                    <label asp-for="Input.NombreTarea" class="form-label fw-bold">Nombre de la tarea</label>
+                    <input asp-for="Input.NombreTarea" class="form-control border-primary shadow-sm" placeholder="Ej. Examen parcial" />
+                    <span asp-validation-for="Input.NombreTarea" class="text-danger"></span>
+                </div>
+
+                <div class="col-sm-6">
+                    <label asp-for="Input.FechaVencimiento" class="form-label fw-bold">Fecha de vencimiento</label>
+                    <input asp-for="Input.FechaVencimiento" type="date" class="form-control border-primary shadow-sm" />
+                    <span asp-validation-for="Input.FechaVencimiento" class="text-danger"></span>
+                </div>
+
+                <div class="col-sm-6">
+                    <label asp-for="Input.Estado" class="form-label fw-bold">Estado</label>
+                    <select asp-for="Input.Estado" class="form-select border-primary shadow-sm">
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="En curso">En curso</option>
+                        <option value="Finalizado">Finalizado</option>
+                    </select>
+                    <span asp-validation-for="Input.Estado" class="text-danger"></span>
+                </div>
+
+                <div class="col-12 d-flex justify-content-end gap-2 mt-3">
+                    <button type="submit" class="btn btn-barca">💾 Guardar</button>
+                    <a asp-page="./Index" class="btn btn-outline-light border-2">❌ Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

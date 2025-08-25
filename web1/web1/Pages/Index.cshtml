@@ -1,0 +1,268 @@
+﻿@page
+@model web1.Pages.IndexModel
+@{
+    Layout = "_Layoutcopia";
+    ViewData["Title"] = "Gestión de Tareas";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="mb-1">Gestión de Tareas</h2>
+        </div>
+        <a asp-page="./Crear" class="btn btn-primary">
+            <i class="fas fa-plus-circle me-1"></i> Nueva tarea
+        </a>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card card-stats card-pendientes">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="icon icon-shape bg-secondary text-white rounded-circle shadow me-3">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h5 class="card-title text-secondary mb-0">@Model.CntPendientes</h5>
+                            <p class="card-text text-muted mb-0">Pendientes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card card-stats card-encurso">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="icon icon-shape bg-info text-white rounded-circle shadow me-3">
+                            <i class="fas fa-spinner"></i>
+                        </div>
+                        <div>
+                            <h5 class="card-title text-info mb-0">@Model.CntEnCurso</h5>
+                            <p class="card-text text-muted mb-0">En curso</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card card-stats card-finalizados">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="icon icon-shape bg-success text-white rounded-circle shadow me-3">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div>
+                            <h5 class="card-title text-success mb-0">@Model.CntFinalizados</h5>
+                            <p class="card-text text-muted mb-0">Finalizados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light py-3">
+            <h5 class="mb-0">Filtros y opciones</h5>
+        </div>
+        <div class="card-body">
+            <form method="get" class="row g-3 align-items-end">
+                <div class="col-md-5">
+                    <label class="form-label fw-bold">Filtrar por estado</label>
+                    <select name="FiltroEstado" class="form-select">
+                        <option value="todos" selected="@(Model.FiltroEstado?.ToLower() == "todos")">Todas las tareas</option>
+                        <option value="pendientes" selected="@(Model.FiltroEstado?.ToLower() == "pendientes")">Pendientes</option>
+                        <option value="en-curso" selected="@(Model.FiltroEstado?.ToLower() == "en-curso")">En curso</option>
+                        <option value="finalizados" selected="@(Model.FiltroEstado?.ToLower() == "finalizados")">Finalizadas</option>
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Elementos por página</label>
+                    <select name="Tamano" class="form-select">
+                        <option value="5" selected="@(Model.Tamano == 5)">5</option>
+                        <option value="10" selected="@(Model.Tamano == 10)">10</option>
+                        <option value="15" selected="@(Model.Tamano == 15)">15</option>
+                        <option value="20" selected="@(Model.Tamano == 20)">20</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary me-2">
+                        <i class="fas fa-filter me-1"></i> Aplicar filtros
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-light py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Lista de tareas</h5>
+                <span class="badge bg-primary">Página @Model.Pagina de @Model.TotalPaginas</span>
+            </div>
+        </div>
+
+        <div class="card-body p-0">
+            @if (Model.Tareas.Count == 0)
+            {
+                <div class="text-center py-5">
+                    <i class="fas fa-tasks fa-3x text-muted mb-3"></i>
+                    <h5 class="text-muted">No hay tareas para mostrar</h5>
+                    <p class="text-muted">Intenta cambiar los filtros o crea una nueva tarea</p>
+                    <a asp-page="./Crear" class="btn btn-primary mt-2">
+                        <i class="fas fa-plus-circle me-1"></i> Crear primera tarea
+                    </a>
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Tarea</th>
+                                <th>Vencimiento</th>
+                                <th>Estado</th>
+                                <th class="text-end">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var t in Model.Tareas)
+                            {
+                                var estado = (t.Estado ?? "").ToLower();
+                                var clase = estado.Contains("final") ? "bg-success"
+                                : estado.Contains("curso") ? "bg-info"
+                                : "bg-secondary";
+
+                                var esEditable = !estado.StartsWith("final");
+                                var id = Model.IndexOfInAll(t);
+
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon-circle me-3 @(clase.Replace("bg-", "bg-soft-"))">
+                                                @if (estado.Contains("final"))
+                                                {
+                                                    <i class="fas fa-check text-success"></i>
+                                                }
+                                                else if (estado.Contains("curso"))
+                                                {
+                                                    <i class="fas fa-spinner text-info"></i>
+                                                }
+                                                else
+                                                {
+                                                    <i class="fas fa-clock text-secondary"></i>
+                                                }
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-0">@t.NombreTarea</h6>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        @{
+                                            DateTime fechaVencimiento;
+                                            bool esVencida = false;
+                                            if (DateTime.TryParse(t.FechaVencimiento, out fechaVencimiento))
+                                            {
+                                                esVencida = fechaVencimiento < DateTime.Now && !estado.Contains("final");
+                                                <span class="@(esVencida ? "text-danger fw-bold" : "")">@fechaVencimiento.ToString("dd/MM/yyyy")</span>
+                                                if (esVencida)
+                                                {
+                                                    <br>
+                                                    <small class="text-danger">Vencida</small>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <span class="text-warning">Fecha inválida</span>
+                                            }
+                                        }
+                                    </td>
+                                    <td>
+                                        <span class="badge @clase">@t.Estado</span>
+                                    </td>
+                                    <td class="text-end">
+                                        @if (esEditable && id >= 0)
+                                        {
+                                            <a class="btn btn-sm btn-outline-primary"
+                                               asp-page="./Editar"
+                                               asp-route-id="@id"
+                                               title="Editar tarea">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted small">No editable</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+
+        @if (Model.Tareas.Count > 0)
+        {
+            <div class="card-footer bg-light">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="text-muted">
+                        Mostrando <strong>@Model.Tareas.Count</strong> de <strong>@Model.TotalRegistros</strong> tareas
+                    </div>
+                    <div>
+                        <nav aria-label="Navegación de páginas">
+                            <ul class="pagination pagination-sm mb-0">
+                                <li class="page-item @(Model.Pagina <= 1 ? "disabled" : "")">
+                                    <a class="page-link"
+                                       asp-page="./Index"
+                                       asp-route-Pagina="@(Model.Pagina - 1)"
+                                       asp-route-Tamano="@Model.Tamano"
+                                       asp-route-FiltroEstado="@Model.FiltroEstado">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </a>
+                                </li>
+
+                                @{
+                                    int inicio = Math.Max(1, Model.Pagina - 2);
+                                    int fin = Math.Min(Model.TotalPaginas, inicio + 4);
+                                    inicio = Math.Max(1, fin - 4);
+
+                                    for (int i = inicio; i <= fin; i++)
+                                    {
+                                        <li class="page-item @(i == Model.Pagina ? "active" : "")">
+                                            <a class="page-link"
+                                               asp-page="./Index"
+                                               asp-route-Pagina="@i"
+                                               asp-route-Tamano="@Model.Tamano"
+                                               asp-route-FiltroEstado="@Model.FiltroEstado">@i</a>
+                                        </li>
+                                    }
+                                }
+
+                                <li class="page-item @(Model.Pagina >= Model.TotalPaginas ? "disabled" : "")">
+                                    <a class="page-link"
+                                       asp-page="./Index"
+                                       asp-route-Pagina="@(Model.Pagina + 1)"
+                                       asp-route-Tamano="@Model.Tamano"
+                                       asp-route-FiltroEstado="@Model.FiltroEstado">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
